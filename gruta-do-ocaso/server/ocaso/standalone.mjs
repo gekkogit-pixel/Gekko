@@ -3,7 +3,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import { extname } from 'node:path';
 import { createCaveRooms } from './rooms.mjs';
 
-const version = '1.17.0';
+const version = '1.17.1';
 const players = new URL('../../../public/ocaso/', import.meta.url);
 const release = new URL(`${version}/`, players);
 const mime = {
