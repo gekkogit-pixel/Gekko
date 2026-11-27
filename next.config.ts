@@ -18,7 +18,7 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        source: "/ocaso/1.17.0/font.woff2",
+        source: "/ocaso/:release/font.woff2",
         headers: [{ key: "Access-Control-Allow-Origin", value: "*" }],
       },
     ];
