@@ -53,9 +53,9 @@ export const GAMES: Game[] = [
     href: "/gruta-do-ocaso",
     hideRecord: true,
     semMoedas: true,
-    // Selo "Online" desligado até o servidor de salas da Gruta estar hospedado
-    // (OCASO_ROOMS_ORIGIN na Vercel). Sem ele, só o treino contra bots funciona.
-    online: false,
+    // Salas online no servidor do Render (OCASO_ROOMS_ORIGIN na Vercel).
+    // Se a variável sumir, o catálogo volta a abrir só o treino contra bots.
+    online: true,
     scoreLabel: "",
     coinsFor: () => 0,
   },
